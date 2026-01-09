@@ -365,9 +365,8 @@ MIT License - feel free to use for learning and portfolio purposes.
 ## 📞 Support
 
 If you have questions or run into issues:
-1. Check the [Troubleshooting](#-troubleshooting) section
-2. Open an issue on GitHub
-3. Contact via LinkedIn
+1. Open an issue on GitHub
+2. Contact via LinkedIn
 
 ---
 
