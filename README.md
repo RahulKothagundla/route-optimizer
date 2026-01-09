@@ -280,26 +280,48 @@ print(f"Fuel Cost: ₹{metrics['fuel_cost_inr']}")
 
 ---
 
-## 🐛 Troubleshooting
+## 📸 Screenshots
 
-### **Issue: Module not found**
-```bash
-# Make sure you're in the project root and venv is activated
-pip install -r requirements.txt
-```
+### Overview Dashboard
+![Overview](screenshots/overview.png)
 
-### **Issue: CSV/JSON not found**
-```bash
-# Check files exist
-ls data/
-# Should see: hyderabad_addresses.csv, warehouse.json
-```
+### Interactive Map
+![Map](screenshots/map.png)
 
-### **Issue: Map not displaying**
-```bash
-# Clear Streamlit cache
-streamlit cache clear
-```
+### Statistics & Analytics
+![Statistics](screenshots/statistics.png)
+
+### Distance Calculator
+![Calculator](screenshots/calculator.png)
+
+---
+
+## 📊 Results
+
+### Route Optimization Performance
+
+Our TSP algorithms achieve **56% distance reduction** on 60 Hyderabad delivery addresses:
+
+| Metric | Naive Route | Optimized Route | Improvement |
+|--------|-------------|-----------------|-------------|
+| Distance | 205.50 km | 90.34 km | **-56.0%** |
+| Time | 5h 52m | 2h 34m | -3h 17m |
+| Fuel Cost | ₹1,626.85 | ₹715.21 | **-₹911.64** |
+| CO₂ Emissions | 39.56 kg | 17.39 kg | -22.17 kg |
+
+### Algorithm Performance
+
+- **Nearest Neighbor:** 42.7% improvement in 0.012s
+- **2-Opt Optimization:** Additional 23.3% improvement in 2.3s
+- **Total Runtime:** < 3 seconds
+- **Convergence:** 6 iterations, 34 improvements found
+
+### Visual Comparison
+
+![Route Comparison](screenshots/route_comparison.png)
+
+Left: Naive sequential route (chaotic, crossing)
+Right: Optimized TSP route (clean, efficient)
 
 ---
 
