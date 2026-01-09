@@ -1,0 +1,21 @@
+{
+  "name": "Hitech City Warehouse",
+  "address": "Hitech City Metro Station, HITEC City, Hyderabad",
+  "lat": 17.4485,
+  "lng": 78.3908,
+  "operating_hours": {
+    "start": "06:00",
+    "end": "22:00"
+  },
+  "vehicle_capacity": {
+    "max_packages": 80,
+    "max_weight_kg": 500,
+    "max_volume_m3": 12
+  },
+  "default_vehicle": {
+    "type": "delivery_van",
+    "fuel_efficiency_kmpl": 12,
+    "fuel_cost_per_liter": 95,
+    "average_speed_kmph": 35
+  }
+}

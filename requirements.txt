@@ -1,0 +1,20 @@
+# Core
+streamlit==1.31.0
+pandas==2.1.4
+numpy==1.26.3
+
+# Algorithms
+scikit-learn==1.4.0
+scipy==1.11.4
+
+# Maps & Geospatial
+folium<0.15, >=0.13
+streamlit-folium==0.16.0
+geopy==2.4.1
+
+# Visualization
+plotly==5.18.0
+matplotlib==3.8.2
+
+# Utilities
+python-dotenv==1.0.0
